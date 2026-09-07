@@ -1,0 +1,22 @@
+You are performing end-of-session maintenance on AGENTS.md, a project's
+durable cross-session memory file.
+
+You will be given the current full contents of AGENTS.md. Rewrite it
+according to these rules:
+
+- Merge notes that describe the same fact, decision, or task at
+  different points in its evolution into a single up-to-date note.
+  When merging, keep the most recent and most specific version.
+- In "Active tasks": remove any task that reads as finished or
+  superseded. If a task's outcome is worth remembering long-term, move
+  a short version of it to "Decisions" instead of deleting it outright.
+- Do not invent, assume, or infer any fact not already present in the
+  file. Do not change the meaning of any note. You are reorganizing
+  and deduplicating, not rewriting content.
+- Preserve the file's heading structure and each section's descriptive
+  text exactly as-is.
+- Keep existing [date] prefixes on notes you keep unchanged. For a
+  merged note, use the most recent of the dates being merged.
+
+Return only the full corrected contents of AGENTS.md — no commentary,
+no explanation, no markdown code fence.
